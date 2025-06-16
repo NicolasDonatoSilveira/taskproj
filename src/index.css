@@ -1,0 +1,53 @@
+/*Fonte Importadas*/
+
+@font-face{
+    font-family: Inter-Thin;
+    src: url(../src/assets/fonts/Inter_18pt-Thin.ttf);
+}
+@font-face{
+    font-family: Inter-Light;
+    src: url(../src/assets/fonts/Inter_18pt-Light.ttf);
+}
+@font-face{
+    font-family: Inter-Regular;
+    src: url(../src/assets/fonts/Inter_18pt-Regular.ttf)
+}
+@font-face{
+    font-family: Inter-Medium;
+    src: url(../src/assets/fonts/Inter_18pt-Medium.ttf);
+}
+@font-face{
+    font-family: Inter-Bold;
+    src: url(../src/assets/fonts/Inter_18pt-Bold.ttf);
+}
+
+/*Scrollbar Customizada*/
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.15);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(148, 163, 184, 0.3);
+}
+
+/*Importando o Tailwind CSS*/
+
+@import "tailwindcss";
+
+/*Variaveis de Fonte*/
+
+@theme{
+    --font-inter-thin: Inter-Thin, "sans-serif";
+    --font-inter-light: Inter-Light, "sans-serif";
+    --font-inter-regular: Inter-Regular, "sans-serif";
+    --font-inter-medium: Inter-Medium, "sans-serif";
+    --font-inter-bold: Inter-Bold, "sans-serif";
+}
