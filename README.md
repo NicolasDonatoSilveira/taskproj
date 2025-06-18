@@ -38,7 +38,7 @@ src/
    ```
 2. **Start the development server:**
    ```
-   npm start
+   npm run dev
    ```
 3. **Access the app:**  
    Open [http://localhost:3000](http://localhost:3000) in your browser.
