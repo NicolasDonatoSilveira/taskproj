@@ -59,14 +59,7 @@ src/
 ## 🎨 Backend Repository
 
 - https://github.com/tioneOliveira/taskColaborationProject
-- For more information about installing and configuring the environment, access the Read Me
-
-```bash
-git clone https://github.com/NicolasDonatoSilveira/taskproj.git
-cd taskproj
-npm install
-npm run dev
-```
+- For more information about installing and configuring the environment, access the backend README.md
 
 ## Good Practices
 
