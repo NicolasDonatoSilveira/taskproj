@@ -56,6 +56,18 @@ src/
 - All forms and modals are accessible with keyboard navigation and screen readers.
 - Error messages are announced for assistive technologies.
 
+## 🎨 Backend Repository
+
+- https://github.com/tioneOliveira/taskColaborationProject
+- For more information about installing and configuring the environment, access the Read Me
+
+```bash
+git clone https://github.com/NicolasDonatoSilveira/taskproj.git
+cd taskproj
+npm install
+npm run dev
+```
+
 ## Good Practices
 
 - State and side effects are managed with React hooks.
